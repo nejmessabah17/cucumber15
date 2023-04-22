@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 53.541 s <<< FAILURE! - in TestRunner.SmokeRunner
+Login Functionalities.Login with multiple credential using data table  Time elapsed: 2.202 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user enters valid username and password and verifies login' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("user enters valid username and password and verifies login")
+public void user_enters_valid_username_and_password_and_verifies_login(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+
+
